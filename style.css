@@ -4,6 +4,7 @@
     margin: 0;
     font-family: 'Lato', sans-serif;
 }
+
 header {
     padding: 0 20px;
     width: 100%;
@@ -11,38 +12,47 @@ header {
     background: white;
     border-bottom: 1px solid #efefef;
 }
+
 .header-left, .header-right {
     float: left;
     height: 100%;
 }
+
 .header-left {
     width: 20%;
 }
+
 .header-right {
     width: 80%;
 }
+
 .header-left img {
     height: 40px;
     margin-top: 15px;
 }
-.header-right > a {
+
+.header-right>a {
     display: none;
 }
+
 .header-right ul {
     list-style: none;
     height: 100%;
     text-align: right;
 }
+
 .header-right ul li {
     display: inline-block;
     margin: 0 20px;
     line-height: 70px;
     height: 100%;
 }
+
 .header-right ul li a {
     color: #565A5C;
     text-decoration: none;
 }
+
 .header-right ul li a.cta {
     padding: 10px 20px;
     color: white;
@@ -61,6 +71,7 @@ header {
     min-height: 100vh;
     background: #2B3F58;
 }
+
 .hamburger-menu ul {
     display: flex;
     height: 100%;
@@ -69,12 +80,14 @@ header {
     align-items: flex-start;
     list-style: none;
 }
+
 .hamburger-menu ul li a {
     color: white;
     text-decoration: none;
     font-size: 25px;
     border-bottom: 2px solid white;
 }
+
 .close {
     display: block;
     position: absolute;
@@ -84,12 +97,12 @@ header {
     font-size: 35px;
     text-decoration: none;
 }
-@media screen and (max-width: 1000px)
-{
+
+@media screen and (max-width: 1000px) {
     .header-right ul {
         display: none;
     }
-    .header-right > a {
+    .header-right>a {
         display: block;
         height: 100%;
         line-height: 70px;
@@ -97,7 +110,6 @@ header {
         color: lightgrey;
         font-size: 20px;
     }
-
     .hamburger-menu.active {
         display: block;
     }
